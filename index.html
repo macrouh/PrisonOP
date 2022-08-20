@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PrisonOP</title>
+    <link rel="icon" type="image/x-icon" href="assets/Macro_PRISON_GAME.jpg">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/6d47c8e254.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="main-body">
+      <div class="header">
+        <p>PRISONOP</p>
+        <div class="header-button">
+          <a href="https://play.google.com/store/apps/details?id=com.macro.PrisonOP"><img src="assets/descarcare.png" alt="Download Button" class="dw-button"></a>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="assets\Screenshot_20220807-115818_PrisonOP.jpg" alt="1"></div>
+            <div class="swiper-slide"><img src="assets\Screenshot_20220811-214025_PrisonOP.jpg" alt="2"></div>
+            <div class="swiper-slide"><img src="assets\Screenshot_20220811-214029_PrisonOP.jpg" alt="3"></div>
+            <div class="swiper-slide"><img src="assets\Screenshot_20220811-214039_PrisonOP.jpg" alt="1"></div>
+            <div class="swiper-slide"><img src="assets\Screenshot_20220812-092734_PrisonOP.jpg" alt="2"></div>
+            <div class="swiper-slide"><img src="assets\Screenshot_20220812-093433_PrisonOP.jpg" alt="3"></div>
+
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        
+        </div>
+      </div>
+
+      <div id="about">
+        <h2>ABOUT</h2>
+        <p>Prison is a type of interactive gamemode inspired by various games with a modest graphical interface. The help page gives you all the support to start your adventure on the section.
+          The economy of the section is based on amplifying the powers of the pickaxe, called enchantments, but also by acquiring the higher rank, obtaining it with the help of money. You have 5 different enchantments with a maximum limit of 1000 levels.
+          Tokenator, Coinsever, Speed, Explosive and Fortune help you boost your ability.</p>
+      </div>
+
+      <div id="news">
+        <h2>NEWS</h2>
+        <div class="newest-grid">
+          <div class="new">
+            <img src="assets/Screenshot_20220811-214025_PrisonOP.jpg" alt="thumbnail">
+            <p>New Update</p>
+            <p> Added: Crates, Enchant Key Crates, Enchant BigerMine, Pickaxe xp / Level. Now you can change the music / player skin, interface shadows, Player Progress saved, Mine Multiblocks etc!</p>
+          </div>
+          <div class="new">
+            <img src="assets/Screenshot_20220630-073445_Prison.jpg" alt="thumbnail">
+            <p>New Update</p>
+            <p>New graphics just added! 2 New enchants, changed menus, about etc.</p>
+          </div>
+          <div class="new">
+            <img src="assets/unknown.png" alt="thumbnail">
+            <p>New Update</p>
+            <p>PrisonOP available right now on the Play Store!</p>
+          </div>
+          
+        </div>
+        <a href="news.html" class="more-news">MORE NEWS</a>
+      </div>
+
+      <div class="contact" id="contact">
+        <h2>CONTACT</h2>
+        <!-- ursu.anato.l.3@gmail.com -->
+        <form action="https://formsubmit.co/ursu.anato.l.3@gmail.com" method="POST">
+          <div class="inputs">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="text" name="lastname" placeholder="Last Name" required>
+            <textarea type="textarea" name="mesaj" placeholder="Say what you want" required></textarea>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="submit">
+          </div>
+        </form>
+      </div>
+
+      <nav>
+        <a href="#about">ABOUT</a>
+        <a href="https://sites.google.com/view/policy-policy-prisonop/pagina-de-pornire?authuser=1" target="_blank">POLICY</a>
+        <a href="#">VERSION</a>
+        <a href="#news">NEWS</a>
+        <a href="#contact">CONTACT</a>
+        <div class="animation start-home"></div>
+      </nav>
+
+      <div class="mobile-nav-button" id="mobile-nav-button">
+        <button onclick="toggle_visibility('mobile-nav')">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="mobile-nav" id="mobile-nav">
+        <div class="mobile-nav-exit">
+          <i class="fa-solid fa-circle-xmark" onclick="toggle_visibility('mobile-nav')"></i>
+        </div>
+        <div class="mobile-nav-buttons">
+          <div>
+            <a class="fa-solid fa-address-card" href="#about"></a>
+            <p class="mobile-nav-title">ABOUT</p>
+          </div>
+          <div>
+            <a href="https://sites.google.com/view/policy-policy-prisonop/pagina-de-pornire?authuser=1" class="fa-solid fa-building-shield" target="_blank"></a>
+            <p class="mobile-nav-title">POLICY</p>
+          </div>
+          <div>
+            <a href="#" class="fa-solid fa-code-merge"></a>
+            <p class="mobile-nav-title">VERSION</p>
+          </div>
+          <div>
+            <a href="#news" class="fa-solid fa-newspaper"></a>
+            <p class="mobile-nav-title">NEWS</p>
+          </div>
+          <div>
+            <a href="#contact" class="fa-solid fa-address-book"></a>
+            <p class="mobile-nav-title">CONTACT</p>
+          </div>
+        </div>
+        </div>
+        
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="scripts/slider.js"></script>
+    <script src="scripts/mobile-nav.js"></script>
+    <script>
+      toggle_visibility('mobile-nav');
+    </script>
+  </body>
+</html>
